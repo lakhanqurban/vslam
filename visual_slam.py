@@ -1,12 +1,4 @@
 """
-visual_slam.py
-
-Visual SLAM portfolio demo.
-
-This version is intentionally self-contained so it can run without the incomplete
-prototype wiring that previously referenced missing VSLAM modules. The demo
-shows one polished idea:
-
 1. Generate a synthetic scene with repeatable landmarks and obstacles.
 2. Track ORB features across frames.
 3. Estimate relative camera motion with affine RANSAC.
