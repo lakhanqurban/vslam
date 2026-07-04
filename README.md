@@ -48,7 +48,7 @@ flowchart LR
 From repository root:
 
 ```bash
-reate -n avc python=3.11
+conda create -n avc python=3.11
 conda activate avc
 pip install -r requirements.txt
 ```
