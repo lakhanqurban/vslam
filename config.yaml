@@ -1,0 +1,24 @@
+camera:
+  width: 960
+  height: 720
+  meters_per_pixel: 0.12
+
+trajectory:
+  frames: 180
+  radius_x: 18.0
+  radius_y: 12.0
+  wobble_x: 2.8
+  wobble_y: 1.6
+
+vslam:
+  keyframe_stride: 5
+  minimum_matches: 8
+  loop_closure_distance_m: 2.5
+  loop_closure_yaw_deg: 25.0
+  loop_closure_min_frame_gap: 30
+  smoothing_window: 7
+
+output:
+  directory: visual_slam_output
+  summary_figure: visual_slam_summary.png
+  mosaic_figure: visual_slam_mosaic.png
