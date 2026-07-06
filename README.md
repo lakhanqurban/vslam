@@ -45,7 +45,7 @@ flowchart LR
 
 ## Installation
 
-From repository root:
+From the repository root:
 
 ```bash
 conda create -n avc python=3.11
@@ -62,32 +62,28 @@ Core dependencies:
 
 ## Usage
 
-From repository root:
+From the repository root:
 
 ### 1) Synthetic mode
 
 ```bash
-python src/simulations/visual_slam/visual_slam_entry.py
+python visual_slam/visual_slam_entry.py
 ```
 
 ### 2) Real-data mode
 
 ```bash
-python src/simulations/visual_slam/visual_slam_entry.py --dataset-mode
+python visual_slam/visual_slam_entry.py --dataset-mode
 ```
 
 ### 3) Interactive plotting
 
 ```bash
-python src/simulations/visual_slam/visual_slam_entry.py --show
-python src/simulations/visual_slam/visual_slam_entry.py --dataset-mode --show
+python visual_slam/visual_slam_entry.py --show
+python visual_slam/visual_slam_entry.py --dataset-mode --show
 ```
 
 ## Outputs
-
-Default output directory:
-
-src/simulations/visual_slam/visual_slam_output/
 
 Generated artifacts:
 
