@@ -4,6 +4,10 @@ Visual SLAM framework for trajectory estimation, loop-closure correction, and re
 
 This module implements a full visual localization pipeline that starts from raw camera frames and produces aligned trajectory outputs, perception quality metrics, and exportable artifacts for analysis. It is structured for clarity, reproducibility, and iterative experimentation, while still operating on real-world data.
 
+## Research Context
+
+This project addresses the research problem of how lightweight, feature-based Visual SLAM pipelines can be systematically benchmarked and improved through modular trajectory refinement and loop-closure correction — a core challenge for autonomous navigation in unknown environments. In the SLAM literature, ORB-SLAM (Mur-Artal et al., *IEEE Trans. Robotics*, 2015) demonstrated that ORB features provide a robust front-end for real-time monocular SLAM, while earlier work on loop-closure detection (Cummins & Newman, *IJRR*, 2008) and trajectory optimization (Strasdat et al., *RSS*, 2010) established the fundamental trade-off between computational efficiency and localization accuracy that all practical SLAM systems must navigate. This implementation bridges textbook exposition and modern SLAM by providing a complete, modular pipeline — from ORB feature extraction through pose graph optimization — that supports both synthetic benchmarking and real-world TUM-style RGB sequences. By exposing trajectory drift, loop-closure correction, and trajectory alignment metrics (Sim2/SE2) in a controlled environment, the project enables systematic investigation of how keyframe selection, feature quality, and smoothing-based refinement affect overall localization accuracy, serving as a practical testbed for SLAM research and education alike.
+
 The project supports two operating modes:
 
 - Synthetic mode for controlled, repeatable evaluation.
