@@ -1,4 +1,4 @@
-# 🚗 Visual SLAM
+# 🚗 3.	Visual SLAM and Visual Odometry for Autonomous Robot Localization
 
 > A lightweight, feature-based Visual SLAM playground for trajectory estimation, loop-closure correction, and reproducible benchmarking.
 
