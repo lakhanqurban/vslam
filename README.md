@@ -12,7 +12,7 @@ This module implements a full visual localization pipeline that starts from raw 
 
 Estimate a camera's planar trajectory from a sequence of images while limiting the accumulated drift that arises from frame-to-frame visual odometry. The project must work both on a controllable synthetic scene and on the bundled Freiburg/TUM-style RGB sequence, detect revisited places, refine the estimated trajectory, and report results against a reference trajectory when one is available.
 
-This is a lightweight educational Visual SLAM pipeline, not a full landmark-based or nonlinear bundle-adjustment system. Its purpose is to make the trade-offs among feature quality, keyframe selection, loop closure, and trajectory smoothing observable and reproducible.
+This is a lightweight Visual SLAM pipeline. Its purpose is to make the trade-offs among feature quality, keyframe selection, loop closure, and trajectory smoothing observable and reproducible.
 
 ## 🔬 Research Context
 
